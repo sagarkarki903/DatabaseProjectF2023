@@ -131,6 +131,7 @@ public class EmployeeSearchFrame extends JFrame {
         lstProject = new JList<String>(new DefaultListModel<String>());
         projectScrollPane.setViewportView(lstProject);
         lstProject.setFont(new Font("Tahoma", Font.PLAIN, 12));
+        lstProject.setModel(project);
 
         // Label for "Employee" text area
         JLabel lblEmployee = new JLabel("Employee");
