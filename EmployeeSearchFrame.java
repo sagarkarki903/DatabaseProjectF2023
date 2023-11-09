@@ -1,3 +1,5 @@
+package DatabaseProjectF2023;
+
 /**
  * Author: Lon Smith, Ph.D.
  * Description: This is the framework for the database program. Additional requirements and functionality
@@ -150,6 +152,6 @@ public class EmployeeSearchFrame extends JFrame {
 		textAreaEmployee.setBounds(36, 197, 339, 68);
 		contentPane.add(textAreaEmployee);
 
-
+	
 	}
 }
