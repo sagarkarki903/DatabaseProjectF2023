@@ -149,5 +149,7 @@ public class EmployeeSearchFrame extends JFrame {
 		textAreaEmployee = new JTextArea();
 		textAreaEmployee.setBounds(36, 197, 339, 68);
 		contentPane.add(textAreaEmployee);
+
+		//this is just to check something. I will delete it later.
 	}
 }
